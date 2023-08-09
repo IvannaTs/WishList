@@ -17,6 +17,7 @@ ul[class],
 ol[class] {
   padding: 0;
 }
+
 /* Remove default margin */
 body,
 h1,
@@ -116,23 +117,36 @@ section {
 
 .container {
   width: 100%;
-  max-width: 1094px;
+  max-width: 991px;
   margin: 0 auto;
 }
 
 .inner-flex {
   max-width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .link-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   text-align: center;
   background-color: transparent;
@@ -140,15 +154,19 @@ section {
   margin-bottom: 15px !important;
   width: 32%;
   min-height: 300px;
-  opacity: .6;
-  object-fit: contain;
+  opacity: .6 !important;
+  -o-object-fit: contain;
+     object-fit: contain;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  -webkit-transition: all ease-in-out .4s;
+  -o-transition: all ease-in-out .4s;
   transition: all ease-in-out .4s;
 }
+
 .link-block:hover {
-  opacity: 1;
+  opacity: 1 !important;
   color: var(--v-dark);
 }
 
@@ -156,89 +174,151 @@ section {
   color: transparent;
   padding: 3px 6px;
   max-width: 300px;
+  -webkit-transition: all ease-in-out .4s;
+  -o-transition: all ease-in-out .4s;
   transition: all ease-in-out .4s;
 }
 
 .link-block:hover span {
   color: var(--v-dark);
   background-color: #fff;
-  /* text-shadow: var(--v-white) 15px 0 15px; */
 }
 
 .link-block.coach-bandit__bl {
   background-image: url('img/fone-pic_1.png');
 }
+
 .link-block.coach-bandit__br {
   background-image: url('img/fone-pic_2.png');
 }
+
 .link-block.polene-cyme {
   background-image: url('img/fone-pic_3.png');
 }
+
 .link-block.vovnyaniy-sharf {
   background-image: url('img/fone-pic_4.png');
 }
+
 .link-block.grivna-choker {
   background-image: url('img/fone-pic_5.png');
 }
+
 .link-block.grivna-serezhki {
   background-image: url('img/fone-pic_6.png');
 }
+
 .link-block.komir-z-vishivkoyu {
   background-image: url('img/fone-pic_7.png');
 }
+
 .link-block.double-mix {
   background-image: url('img/fone-pic_8.png');
 }
+
 .link-block.airpods-max {
   background-image: url('img/fone-pic_9.png');
 }
+
 .link-block.jul-bluza {
   background-image: url('img/fone-pic_10.png');
 }
+
 .link-block.omelia-kwitka {
   background-image: url('img/fone-pic_11.png');
 }
+
 .link-block.ikos-derbi {
   background-image: url('img/fone-pic_12.png');
 }
+
 .link-block.ikos-muli {
   background-image: url('img/fone-pic_13.png');
 }
+
 .link-block.shypelyk-parasolya {
   background-image: url('img/fone-pic_14.png');
 }
+
 .link-block.bevza-balaclava {
   background-image: url('img/fone-pic_15.png');
 }
+
 .link-block.huda-beauty-paleta {
   background-image: url('img/fone-pic_16.png');
 }
+
 .link-block.crash-baggage {
   background-image: url('img/fone-pic_17.png');
 }
+
 .link-block.ami-cap {
   background-image: url('img/fone-pic_18.png');
 }
+
 .link-block.ami-T-Shirt {
   background-image: url('img/fone-pic_19.png');
 }
+
 .link-block.NB-Sneakers {
   background-image: url('img/fone-pic_20.png');
 }
+
 .link-block.Ami-hoodie {
   background-image: url('img/fone-pic_21.png');
 }
+
 .link-block.woda-perfumowana {
   background-image: url('img/fone-pic_22.png');
 }
+
 .link-block.guniaproject {
   background-image: url('img/fone-pic_23.png');
 }
+
 .link-block.main-necklace {
   background-image: url('img/fone-pic_24.png');
 }
+
 .link-block.two-horses-necklace {
   background-image: url('img/fone-pic_25.png');
 }
 
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .link-block {
+    width: 49%;
+    min-height: 300px;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    padding: 0 20px;
+  }
+  .link-block {
+    width: 30%;
+    min-height: 210px;
+  }
+}
+@media (max-width: 468px) {
+  .container {
+    padding: 0 15px;
+  }
+  .link-block {
+    width: 32.5%;
+    min-height: 200px !important;
+    margin-bottom: 5px !important;
+    padding: 5px;
+    background-size: auto 200px;
+    font-size: 12px;
+  }
+}
