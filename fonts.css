@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "KyivTypeSansBold";
+  src: url("fonts/KyivTypeSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KyivTypeSans-Bold-2";
+  src: url("fonts/KyivTypeSans-Bold-2.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyivTypeSansMedium";
+  src: url("fonts/KyivTypeSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyivTypeSans-Medium";
+  src: url("fonts/KyivTypeSans-Medium-2.ttf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyivTypeSansRegular";
+  src: url("fonts/KyivTypeSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KyivTypeSans-Light";
+  src: url("fonts/KyivTypeSans-Light.ttf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
