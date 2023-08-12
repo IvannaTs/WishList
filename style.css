@@ -308,6 +308,15 @@ section {
     width: 30%;
     min-height: 210px;
   }
+  .link-block span {
+    color: var(--v-dark);
+  }
+  .link-block {
+    opacity: 1 !important;
+  }
+  .link-block:after {
+    content: '';
+  }
 }
 @media (max-width: 468px) {
   .container {
