@@ -310,12 +310,21 @@ section {
   }
   .link-block span {
     color: var(--v-dark);
+    position: relative;
+    z-index: 3;
+    width: 100%;
   }
   .link-block {
     opacity: 1 !important;
+    padding: 10px;
   }
   .link-block:after {
     content: '';
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    opacity: .6;
   }
 }
 @media (max-width: 468px) {
