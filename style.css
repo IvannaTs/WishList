@@ -301,6 +301,15 @@ section {
 .link-block.NYX-Pencil {
   background-image: url('img/fone-pic_29.png');
 }
+.link-block.victoriassecret-koszulka {
+  background-image: url('img/fone-pic_31.png');
+}
+.link-block.biluzna {
+  background-image: url('img/fone-pic_30.png');
+}
+.link-block.kimono {
+  background-image: url('img/fone-pic_32.png');
+}
 
 
 @media (max-width: 1024px) {
