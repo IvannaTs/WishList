@@ -164,7 +164,16 @@ section {
   -o-transition: all ease-in-out .4s;
   transition: all ease-in-out .4s;
 }
-
+.link-block.done {
+  -webkit-mask-image:
+  linear-gradient(45deg, #000000 25%, rgba(0,0,0,0.2) 25%),
+  linear-gradient(-45deg, #000000 25%, rgba(0,0,0,0.2) 25%),
+  linear-gradient(45deg, rgba(0,0,0,0.2) 75%, #000000 75%),
+  linear-gradient(-45deg, rgba(0,0,0,0.2) 75%, #000000 75%);
+-webkit-mask-size:20px 20px;
+  -webkit-mask-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  
+}
 .link-block:hover {
   opacity: 1 !important;
   color: var(--v-dark);
@@ -280,8 +289,18 @@ section {
   background-image: url('img/fone-pic_24.png');
 }
 
-.link-block.two-horses-necklace {
+.link-block.hair {
   background-image: url('img/fone-pic_25.png');
+}
+
+.link-block.solgar {
+  background-image: url('img/fone-pic_26.png');
+}
+.link-block.scarf {
+  background-image: url('img/fone-pic_27.png');
+}
+.link-block.nails {
+  background-image: url('img/fone-pic_28.png');
 }
 
 
