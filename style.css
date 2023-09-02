@@ -310,6 +310,24 @@ section {
 .link-block.kimono {
   background-image: url('img/fone-pic_32.png');
 }
+.link-block.scirt {
+  background-image: url('img/fone-pic_33.png');
+}
+.link-block.massimo-bag {
+  background-image: url('img/fone-pic_34.png');
+}
+.link-block.lowheel-boots {
+  background-image: url('img/fone-pic_35.png');
+}
+.link-block.sorochka-kartata {
+  background-image: url('img/fone-pic_36.png');
+}
+.link-block.twill-bomber {
+  background-image: url('img/fone-pic_37.png');
+}
+.link-block.top-dzianinowy {
+  background-image: url('img/fone-pic_38.png');
+}
 
 
 @media (max-width: 1024px) {
