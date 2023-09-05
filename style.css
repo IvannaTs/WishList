@@ -328,6 +328,9 @@ section {
 .link-block.top-dzianinowy {
   background-image: url('img/fone-pic_38.png');
 }
+.link-block.tartelette {
+  background-image: url('img/fone-pic_39.png');
+}
 
 
 @media (max-width: 1024px) {
