@@ -345,6 +345,14 @@ section {
   background-image: url('img/fone-pic_57.png');
 }
 
+.link-block.sumka-drew {
+  background-image: url('img/fone-pic_58.png');
+}
+
+.link-block.ByFarMiranda {
+  background-image: url('img/fone-pic_59.png');
+}
+
 
 @media (max-width: 1024px) {
   .container {
