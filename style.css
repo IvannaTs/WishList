@@ -353,17 +353,11 @@ section {
   background-image: url('img/fone-pic_59.png');
 }
 
-.link-block.coachWallet {
-  background-image: url('img/fone-pic_60.png');
-}
 
 .link-block.comme-des-garons-wallet {
   background-image: url('img/fone-pic_61.png');
 }
 
-.link-block.dolce-gabbana-wallet {
-  background-image: url('img/fone-pic_62.png');
-}
 
 .link-block.golden-goose-1 {
   background-image: url('img/fone-pic_63.png');
@@ -373,8 +367,12 @@ section {
   background-image: url('img/fone-pic_64.png');
 }
 
-.link-block.portmonetka-serce {
-  background-image: url('img/fone-pic_65.png');
+.link-block.porte-cartes {
+  background-image: url('img/fone-pic_66.png');
+}
+
+.link-block.swarovski {
+  background-image: url('img/fone-pic_67.png');
 }
 
 @media (max-width: 1024px) {
